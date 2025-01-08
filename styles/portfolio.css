@@ -52,11 +52,21 @@
      
  }
 
+ .bg_secondary{
+  background-color: #FFF8F3;  
+ }
 
  .header {
      background-image: url(../images/developer.png), url(../images/header_bg.png);
      background-repeat: no-repeat;
      background-position: top left ,right bottom;
+ }
+
+ /* main styles */
+
+ .main{
+    max-width: 1140px;
+    margin: 0 auto;
  }
 
  /* banner styles */
@@ -83,4 +93,28 @@
 
  .banner_profile_pic {
      width: 580px;
+ }
+
+ /* about section */
+ .about{
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+ }
+
+ .section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+ }
+ .section_description{
+    font-size: 18px;
+    color: #313030;
+ }
+ .item_description{
+    font-weight: bold;
+ }
+ .about_items{
+    display: flex;
+    justify-content:space-around;
  }
